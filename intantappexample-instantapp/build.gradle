@@ -20,5 +20,5 @@ android {
 }
 
 dependencies {
-    implementation project(":instantappexample-base")
+    compile project(":instantappexample-base")
 }
