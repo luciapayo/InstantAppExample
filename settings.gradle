@@ -1,1 +1,1 @@
-include ':instantappexample-base', ':instantappexample-app'
+include ':instantappexample-base', ':instantappexample-app', ':intantappexample-instantapp'

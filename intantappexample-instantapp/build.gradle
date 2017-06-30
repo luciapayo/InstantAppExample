@@ -1,0 +1,14 @@
+apply plugin: 'com.android.instantapp'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+
+    defaultConfig {
+        minSdkVersion 23
+    }
+}
+
+dependencies {
+    implementation project(":instantappexample-base")
+}
