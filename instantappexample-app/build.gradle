@@ -1,10 +1,11 @@
-apply plugin: 'com.android.feature'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.0"
 
     defaultConfig {
+        applicationId "com.lucilu.instantappexample.app"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
@@ -17,11 +18,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    baseFeature true
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:26.0.0-beta2'
-    application project(":instantappexample-app")
+    implementation project(":app")
 }
